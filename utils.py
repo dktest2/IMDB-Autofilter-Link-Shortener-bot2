@@ -379,7 +379,7 @@ def humanbytes(size):
 
 #shortzy
 
-shortz = shortzy.Shortzy(SHORTENER_API, "droplink.co")
+shortz = shortzy.Shortzy(SHORTENER_API, "https://shareus.io")
 async def get_shortlink(link):
          if  SHORTENER_API:
                if  LONG_DROPLINK_URL =="True" or LONG_DROPLINK_URL is True:
