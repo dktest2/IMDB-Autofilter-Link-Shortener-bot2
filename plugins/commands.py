@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('⭕️ Updates ⭕️', url='https://t.me/josprojects')
+                InlineKeyboardButton('⭕️ CHANNEL ⭕️', url='https://t.me/DK_Area')
             ],
             [
                 InlineKeyboardButton('🛠️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -50,8 +50,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🕵️ Search here Movie 🕵️', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('⭕️ Updates', url='https://t.me/josprojects'),
-            InlineKeyboardButton('Movie Club ⭕️', url='https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('⭕️ CHANNEL', url='https://t.me/DK_Area'),
+            InlineKeyboardButton('⭕️ Movie Club', url='https://t.me/DK_HDmovie')
             ],[
             InlineKeyboardButton('❌ Close the Menu ❌', callback_data='close_data')
         ]]
@@ -73,7 +73,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "🔥 Join Channel🔥", url=invite_link.invite_link
                 )
             ]
         ]
@@ -81,7 +81,7 @@ async def start(client, message):
         if message.command[1] != "subscribe":
             kk, file_id = message.command[1].split("_", 1)
             pre = 'checksubp' if kk == 'filep' else 'checksub' 
-            btn.append([InlineKeyboardButton("🔄 Try Again 👈 Tap me 🥰", callback_data=f"{pre}#{file_id}")])
+            btn.append([InlineKeyboardButton("🔄 Try Again 🔄👉 Tap me 🥰", callback_data=f"{pre}#{file_id}")])
         await client.send_message(
             chat_id=message.from_user.id,
             text=Script.FORCESUB_TXT,
@@ -98,8 +98,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🕵️ Search here Movie 🕵️', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('⭕️ Updates', url='https://t.me/josprojects'),
-            InlineKeyboardButton('Movie Club ⭕️', url='https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('⭕️ CHANNEL', url='https://t.me/DK_Area'),
+            InlineKeyboardButton('Movie Club ⭕️', url='https://t.me/DK_HDmovie')
             ],[
             InlineKeyboardButton('❌ Close the Menu ❌', callback_data='close_data')
         ]]
@@ -250,11 +250,11 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [
-            InlineKeyboardButton('⭕️ Support', url='https://t.me/JOSPSupport'),
-            InlineKeyboardButton('Channel ⭕️', url='https://t.me/josprojects/221')
+            InlineKeyboardButton('⭕️ Support', url='https://t.me/DK_Area'),
+            InlineKeyboardButton('Channel ⭕️', url='https://t.me/DK_Gru')
         ],
         [
-            InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'https://t.me/DK_HDmovie')
         ]
         ]
     await client.send_cached_media(
