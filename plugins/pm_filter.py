@@ -90,7 +90,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/Morbiusv1_bot?start=Z2V0LTI5NDQ2MTgxNTIzMTc1Mg==')
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://tinyurl.com/2qkqtgtk')
         ]
     )
 
@@ -930,7 +930,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/Morbiusv1_bot?start=Z2V0LTI5NDQ2MTgxNTIzMTc1Mg==')
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://tinyurl.com/2qkqtgtk')
         ]
     )
 
