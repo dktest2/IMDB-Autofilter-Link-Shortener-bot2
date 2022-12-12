@@ -57,7 +57,7 @@ async def save_group(bot, message):
                     except:
                         pass
                 temp.MELCOW['welcome'] = await message.reply_text(
-                text=f"<b>👋 Hi! {u.mention},</b> Welcome to <b>{message.chat.title}</b>\n\n<b>👇 𝖮𝖥𝖥𝖨𝖢𝖨𝖠𝖫 𝖬𝖮𝖵𝖨𝖤 𝖢𝖧𝖠𝖭𝖭𝖫𝖲 👇</b>",
+                text=f"<b>👋 Hi! {u.mention},</b> Welcome to <b>{message.chat.title}</b>\n\n<b>👇 𝖮𝖥𝖥𝖨𝖢𝖨𝖠𝖫 𝖬𝖮𝖵𝖨𝖤 𝖦𝖱𝖮𝖴𝖯 👇</b>",
                 disable_web_page_preview = True,
                 reply_markup=InlineKeyboardMarkup(buttons))
 
@@ -111,7 +111,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Successfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('Support', url=f'https://t.me/{SUPPORT_CHAT}')
+            InlineKeyboardButton('✉ 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 ✉', url=f'https://t.me/{SUPPORT_CHAT}')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
