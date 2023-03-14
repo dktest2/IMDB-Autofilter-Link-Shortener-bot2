@@ -99,7 +99,7 @@ async def start(client, message):
             InlineKeyboardButton('🕵️ Search here Movie 🕵️', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('⭕️ CHANNEL', url='https://t.me/+gtlaKqnF9rVlMWRl'),
-            InlineKeyboardButton('Movie Club ⭕️', url='https://t.me/movie_a1')
+            InlineKeyboardButton('Movie Club ⭕️', url='https://t.me/movie_on1')
             ],[
             InlineKeyboardButton('❌ Close the Menu ❌', callback_data='close_data')
         ]]
