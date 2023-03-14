@@ -387,11 +387,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
         buttons = [
             [
-                InlineKeyboardButton('⭕️ Support', url='https://t.me/DK_Area'),
-                InlineKeyboardButton('Channel ⭕️', url='https://t.me/DK_Gru')
+                InlineKeyboardButton('⭕️ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url='https://t.me/movie_a1'),
+                InlineKeyboardButton('𝙶𝚁𝙾𝚄𝙿 ⭕️', url='https://t.me/movie_on1')
             ],
             [
-                InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'https://t.me/DK_HDmovie')
+                InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'https://t.me/+gtlaKqnF9rVlMWRl')
             ]
             ]
 
@@ -441,11 +441,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
             [
-                InlineKeyboardButton('⭕️ Support', url='https://t.me/DK_Area'),
-                InlineKeyboardButton('Channel ⭕️', url='https://t.me/DK_Gru')
+                InlineKeyboardButton('⭕️ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url='https://t.me/movie_a1'),
+                InlineKeyboardButton('𝙶𝚁𝙾𝚄𝙿 ⭕️', url='https://t.me/movie_on1')
             ],
             [
-                InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'https://t.me/DK_HDmovie')
+                InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'https://t.me/+gtlaKqnF9rVlMWRl')
             ]
             ]
         await query.answer()
@@ -467,8 +467,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🕵️ Search here Movie 🕵️', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('⭕️ CHANNEL', url='https://t.me/DK_Area'),
-            InlineKeyboardButton('Movie Club ⭕️', url='https://t.me/DK_HDmovie')
+            InlineKeyboardButton('⭕️ CHANNEL', url='https://t.me/+gtlaKqnF9rVlMWRl'),
+            InlineKeyboardButton('Movie Club ⭕️', url='https://t.me/movie_on1')
             ],[
             InlineKeyboardButton('❌ Close the Menu ❌', callback_data='close_data')
         ]]
@@ -518,7 +518,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('⭕ Status', url='https://t.me/DK_Area'),
+            InlineKeyboardButton('⭕ Status', url='https://t.me/movie_a1'),
             InlineKeyboardButton('Source 🪤', callback_data='source')
             ],[
             InlineKeyboardButton('❓ How to Use ❓', callback_data='help')
@@ -950,11 +950,11 @@ async def auto_filter(client, msg, spoll=False):
         )
 
     btn.insert(0, [
-        InlineKeyboardButton("⭕️ Movie", url="https://t.me/DK_Gru"),
-        InlineKeyboardButton("Series ⭕️", url="https://t.me/DK_Gru")
+        InlineKeyboardButton("⭕️ Movie", url="https://t.me/+gtlaKqnF9rVlMWRl"),
+        InlineKeyboardButton("Series ⭕️", url="https://t.me/+gtlaKqnF9rVlMWRl")
     ])
     btn.insert(0, [
-        InlineKeyboardButton("⭕️ Join Our Channel ⭕️",url="https://t.me/DK_HDmovie")
+        InlineKeyboardButton("⭕️ Join Our Channel ⭕️",url="https://t.me/movie_a1")
     ])
     reply_id = message.reply_to_message.message_id if message.reply_to_message else message.message_id
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
