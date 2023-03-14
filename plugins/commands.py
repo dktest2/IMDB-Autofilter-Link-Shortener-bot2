@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('⭕️ CHANNEL ⭕️', url='https://t.me/DK_Area')
+                InlineKeyboardButton('⭕️ CHANNEL ⭕️', url='https://t.me/movie_a1')
             ],
             [
                 InlineKeyboardButton('🛠️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -50,8 +50,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🕵️ Search here Movie 🕵️', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('⭕️ CHANNEL', url='https://t.me/DK_Area'),
-            InlineKeyboardButton('⭕️ Movie Club', url='https://t.me/DK_HDmovie')
+            InlineKeyboardButton('⭕️ CHANNEL', url='https://t.me/movie_a1'),
+            InlineKeyboardButton('⭕️ Movie Club', url='https://t.me/movie_on1')
             ],[
             InlineKeyboardButton('❌ Close the Menu ❌', callback_data='close_data')
         ]]
@@ -98,8 +98,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🕵️ Search here Movie 🕵️', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('⭕️ CHANNEL', url='https://t.me/DK_Area'),
-            InlineKeyboardButton('Movie Club ⭕️', url='https://t.me/DK_HDmovie')
+            InlineKeyboardButton('⭕️ CHANNEL', url='https://t.me/movie_a1'),
+            InlineKeyboardButton('Movie Club ⭕️', url='https://t.me/movie_a1')
             ],[
             InlineKeyboardButton('❌ Close the Menu ❌', callback_data='close_data')
         ]]
@@ -250,11 +250,11 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [
-            InlineKeyboardButton('⭕️ Support', url='https://t.me/DK_Area'),
-            InlineKeyboardButton('Channel ⭕️', url='https://t.me/DK_Gru')
+            InlineKeyboardButton('⭕️ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url='https://t.me/movie_a1'),
+            InlineKeyboardButton('𝙶𝚁𝙾𝚄𝙿 ⭕️', url='https://t.me/movie_on1')
         ],
         [
-            InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'https://t.me/DK_HDmovie')
+            InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'https://t.me/movie_on1')
         ]
         ]
     await client.send_cached_media(
