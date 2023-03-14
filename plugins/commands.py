@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('⭕️ CHANNEL ⭕️', url='https://t.me/movie_a1')
+                InlineKeyboardButton('⭕️ CHANNEL ⭕️', url='https://t.me/+gtlaKqnF9rVlMWRl')
             ],
             [
                 InlineKeyboardButton('🛠️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -50,7 +50,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🕵️ Search here Movie 🕵️', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('⭕️ CHANNEL', url='https://t.me/movie_a1'),
+            InlineKeyboardButton('⭕️ CHANNEL', url='https://t.me/+gtlaKqnF9rVlMWRl'),
             InlineKeyboardButton('⭕️ Movie Club', url='https://t.me/movie_on1')
             ],[
             InlineKeyboardButton('❌ Close the Menu ❌', callback_data='close_data')
@@ -98,7 +98,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🕵️ Search here Movie 🕵️', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('⭕️ CHANNEL', url='https://t.me/movie_a1'),
+            InlineKeyboardButton('⭕️ CHANNEL', url='https://t.me/+gtlaKqnF9rVlMWRl'),
             InlineKeyboardButton('Movie Club ⭕️', url='https://t.me/movie_a1')
             ],[
             InlineKeyboardButton('❌ Close the Menu ❌', callback_data='close_data')
